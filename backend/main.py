@@ -22,7 +22,7 @@ import httpx
 SECRET_KEY = os.getenv("AETHER_SECRET", secrets.token_hex(32))
 ALGORITHM = "HS256"
 ADMIN_EMAIL = "admin@aetherforge.dev"
-ADMIN_PASSWORD = "StormGod420!)
+ADMIN_PASSWORD = "StormGod420!"
 # ------------------ MODELS ------------------
 class UserRegister(BaseModel):
     email: str
